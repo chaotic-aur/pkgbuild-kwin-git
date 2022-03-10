@@ -10,7 +10,7 @@ arch=($CARCH)
 url='https://kde.org/plasma-desktop/'
 license=(LGPL)
 depends=(kscreenlocker-git xcb-util-cursor plasma-framework-git kcmutils-git kwayland-server-git breeze-git qt5-sensors qt5-script pipewire libqaccessibilityclient-git libdrm lcms2)
-makedepends=(git extra-cmake-modules-git qt5-tools kdoctools-git krunner-git xorg-xwayland)
+makedepends=(git extra-cmake-modules-git qt5-tools kdoctools-git krunner-git xorg-xwayland python)
 optdepends=('qt5-virtualkeyboard: virtual keyboard support for kwin-wayland'
             'maliit-keyboard: virtual keyboard support for kwin-wayland')
 conflicts=(${pkgname%-git})
